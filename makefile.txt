@@ -1,0 +1,60 @@
+###############
+# DEFINITIONS #
+###############
+COMPILER =		gcc -g
+ROOT_DIR =		~/Documents/University/Phd/Reachability/GIT/symsyn
+EXAMPLES_DIR =	$(ROOT_DIR)/Examples/EXAMPLES_C_SRC_INLINED_AND_CLEANED
+FLEX_DIR =		$(ROOT_DIR)/HaMuDaNaTH/ENV_1_MS_VISUAL_STUDIO/FLEX/FLEX_for_LLVM_IR
+BISON_DIR =		$(ROOT_DIR)/HaMuDaNaTH/SRC/BISON/BISON_for_LLVM_IR
+SRC_DIR =		$(ROOT_DIR)/HaMuDaNaTH/SRC/TOOL
+INC_DIR =		$(SRC_DIR)
+
+################
+# OBJECT FILES #
+################
+OBJ_FILES =	AST_Matrix.o \
+			AST_Row_Operations.o \
+			AST_Solution_Set.o \
+			Parse_Matrix.o \
+			Parse_Row_Operations.o \
+			Parse_Solution_Set.o \
+			Rank_Matrix_With_Row_Operations.o \
+			Check_Row_Operations.o \
+			Check_Solution_Set.o
+
+###############
+# MAIN TARGET #
+###############
+default: all
+all: LinearAlgebraMaster
+
+###############
+# MAIN TARGET #
+###############
+LinearAlgebraMaster: $(OBJ_FILES)
+	$(COMPILER) -o LinearAlgebraMaster $(OBJ_FILES)
+
+###########
+# OBJECTS #
+###########
+%.o: $(SRC_DIR)/%.c
+	$(COMPILER) -I$(INC_DIR) $< -c -o $@
+
+%.o: $(FLEX_DIR)/%.c
+	$(COMPILER) -I$(INC_DIR) $< -c -o $@
+
+%.o: $(BISON_DIR)/%.c
+	$(COMPILER) -I$(INC_DIR) $< -c -o $@
+
+##########
+# .PHONY #
+##########
+.PHONY: clean
+	
+################
+# CLEAN TARGET #
+################
+clean:
+	@rm -f \
+	*.o \
+	*~

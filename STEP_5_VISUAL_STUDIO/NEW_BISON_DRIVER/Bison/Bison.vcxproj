@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD470C77-3CB6-463F-8B46-AD59A9DA25F6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Bison</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\AnnotationList.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\assoc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\closure.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\complain.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\conflicts.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\derives.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\files.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\flex-scanner.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\getargs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\gram.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\graphviz.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\ielr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\InadequacyList.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\lalr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\location.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\LR0.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\muscle-tab.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\named-ref.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\nullable.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\output.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\parse-gram.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\print-xml.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\print.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\print_graph.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\reader.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\reduce.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\relation.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\Sbitset.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\scan-code.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\scan-gram.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\scan-skel.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\state.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\symlist.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\symtab.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\system.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\tables.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison-3.0\src\uniqstr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\bison\bison-3.0\src\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\AnnotationList.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\assoc.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\closure.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\complain.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\conflicts.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\derives.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\files.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\getargs.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\gram.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\graphviz.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\ielr.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\InadequacyList.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\lalr.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\location.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\LR0.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\main.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\muscle-tab.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\named-ref.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\nullable.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\output.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\parse-gram.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\print-xml.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\print.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\print_graph.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\reader.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\reduce.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\relation.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\Sbitset.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\scan-code.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\scan-gram.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\scan-skel-c.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\scan-skel.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\state.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\symlist.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\symtab.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\tables.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\bison\bison-3.0\src\uniqstr.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿Build started 07/12/2016 15:45:49.
+     1>Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\FLEX_DRIVER\FLEX_DRIVER.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FLEX_DRIVER.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\FLEX_DRIVER.unsuccessfulbuild".
+         Touching "Debug\FLEX_DRIVER.lastbuildstate".
+     1>Done Building Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\FLEX_DRIVER\FLEX_DRIVER.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

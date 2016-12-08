@@ -1,0 +1,100 @@
+﻿Build started 08/12/2016 08:49:00.
+     1>Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\NEW_BISON_DRIVER\Bison\Bison.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Bison.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\Bison.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\..\..\bison\bison-3.0\src\AnnotationList.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\assoc.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\closure.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\complain.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\conflicts.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\derives.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\files.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\getargs.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\gram.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\graphviz.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\ielr.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\InadequacyList.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\lalr.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\location.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\LR0.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\main.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\muscle-tab.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\named-ref.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\nullable.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\output.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\parse-gram.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\print-xml.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\print.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\print_graph.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\reader.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\reduce.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\relation.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\Sbitset.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\scan-code.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\scan-gram.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\scan-skel-c.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\scan-skel.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\state.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\symlist.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\symtab.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\tables.c" "..\..\..\..\..\..\..\bison\bison-3.0\src\uniqstr.c"
+         uniqstr.c
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(598): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(600): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(602): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(604): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(606): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(607): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(609): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(611): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(613): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(615): error C2485: '__restrict' : unrecognized extended attribute
+     1>c:\bison\bison-3.0\src\system.h(55): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         tables.c
+     1>c:\bison\bison-3.0\src\tables.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         symtab.c
+     1>c:\bison\bison-3.0\src\symtab.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         symlist.c
+     1>c:\bison\bison-3.0\src\symlist.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         state.c
+     1>c:\bison\bison-3.0\src\state.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         scan-skel.c
+     1>../../src/scan-skel.l(30): fatal error C1083: Cannot open include file: 'src/flex-scanner.h': No such file or directory
+         scan-skel-c.c
+     1>c:\bison\bison-3.0\src\scan-skel-c.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         scan-gram.c
+     1>../../src/scan-gram.l(30): fatal error C1083: Cannot open include file: 'src/flex-scanner.h': No such file or directory
+         scan-code.c
+     1>../../src/scan-code.l(30): fatal error C1083: Cannot open include file: 'src/flex-scanner.h': No such file or directory
+         Sbitset.c
+     1>c:\bison\bison-3.0\src\sbitset.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         relation.c
+     1>c:\bison\bison-3.0\src\relation.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         reduce.c
+     1>c:\bison\bison-3.0\src\reduce.c(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         reader.c
+     1>c:\bison\bison-3.0\src\reader.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         print_graph.c
+     1>c:\bison\bison-3.0\src\print_graph.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         print.c
+     1>c:\bison\bison-3.0\src\print.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         print-xml.c
+     1>c:\bison\bison-3.0\src\print-xml.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         parse-gram.c
+     1>src/parse-gram.y(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         output.c
+     1>c:\bison\bison-3.0\src\output.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         nullable.c
+     1>c:\bison\bison-3.0\src\nullable.c(26): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         named-ref.c
+     1>c:\bison\bison-3.0\src\named-ref.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         Generating Code...
+         Compiling...
+         muscle-tab.c
+     1>c:\bison\bison-3.0\src\muscle-tab.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         main.c
+     1>c:\bison\bison-3.0\src\main.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         LR0.c
+     1>c:\bison\bison-3.0\src\lr0.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         location.c
+     1>c:\bison\bison-3.0\src\location.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         lalr.c
+     1>c:\bison\bison-3.0\src\lalr.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         InadequacyList.c
+     1>c:\bison\bison-3.0\src\inadequacylist.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         ielr.c
+     1>c:\bison\bison-3.0\src\ielr.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         graphviz.c
+     1>c:\bison\bison-3.0\src\graphviz.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         gram.c
+     1>c:\bison\bison-3.0\src\gram.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         getargs.c
+     1>c:\bison\bison-3.0\src\getargs.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         files.c
+     1>c:\bison\bison-3.0\src\files.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         derives.c
+     1>c:\bison\bison-3.0\src\derives.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         conflicts.c
+     1>c:\bison\bison-3.0\src\conflicts.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         complain.c
+     1>c:\bison\bison-3.0\src\complain.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         closure.c
+     1>c:\bison\bison-3.0\src\closure.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         assoc.c
+     1>c:\bison\bison-3.0\src\assoc.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         AnnotationList.c
+     1>c:\bison\bison-3.0\src\annotationlist.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\NEW_BISON_DRIVER\Bison\Bison.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70

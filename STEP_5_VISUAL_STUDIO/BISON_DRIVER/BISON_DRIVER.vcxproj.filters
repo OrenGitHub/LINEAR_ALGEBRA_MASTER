@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\alloca.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\allocate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\closure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\conflicts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\derives.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getargs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\gram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lalr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\LR0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\nullable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\symtab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\warshall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\gram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\symtab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\STEP_4_CHECK_EXERCISES\STEP_4a_Matrix_Reader\MatrixReader.y">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+#line 1 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+
+/**********************/
+/* BEGINING OF C PART */
+/**********************/
+/*************************/
+/* GENERAL INCLUDE FILES */
+/*************************/
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
+
+/*************************/
+/* PROJECT INCLUDE FILES */
+/*************************/
+#include "Matrix.h"
+#include "Matrix_Reader_Parser.h"
+
+/*********************/
+/* ALLOCA ISSUES ... */
+/*********************/
+#define alloca malloc
+
+/*******************/
+/* RENAMING ISSUES */
+/*******************/
+#define yylex		MatrixReaderlex
+#define yychar		MatrixReaderchar
+#define yylval		MatrixReaderlval
+#define yyparse		MatrixReaderparse
+#define yyerror		MatrixReadererror
+#define yydebug		MatrixReaderdebug
+#define yynerrs		MatrixReadernerrs
+
+/************/
+/* AST ROOT */
+/************/
+Mat3 A;
+
+/*************/
+/* yylex ... */
+/*************/
+int  MatrixReaderlex(void);
+
+/***************/
+/* yyerror ... */
+/***************/
+void  MatrixReadererror(char *s){Exit(0);}
+
+/*****************/
+/* END OF C PART */
+/*****************/
+
+#line 57 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+typedef union
+{
+	union
+	{
+		int					ival;
+		FractionType		frac;
+	}
+	gval;
+} YYSTYPE;

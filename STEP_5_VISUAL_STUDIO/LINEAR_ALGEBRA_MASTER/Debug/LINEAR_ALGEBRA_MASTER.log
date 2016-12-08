@@ -1,0 +1,132 @@
+﻿Build started 08/12/2016 08:54:54.
+     1>Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\LINEAR_ALGEBRA_MASTER\LINEAR_ALGEBRA_MASTER.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\LINEAR_ALGEBRA_MASTER.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Lexer.c ..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Parser.c
+         Matrix_Reader_Parser.c
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(47): warning C4013: 'Exit' undefined; assuming extern returning int
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(65): error C2371: 'MatrixReaderlval' : redefinition; different basic types
+                 c:\users\oren ish shalom\git\linear_algebra_master\step_6_source_code\matrix_reader_parser.h(9) : see declaration of 'MatrixReaderlval'
+     1>bison.simple(117): error C2054: expected '(' to follow 'YYSTYPE'
+     1>bison.simple(125): error C2085: 'MatrixReadernerrs' : not in formal parameter list
+     1>bison.simple(165): error C2085: '__yy_memcpy' : not in formal parameter list
+     1>bison.simple(165): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(165): error C2085: 'to' : not in formal parameter list
+     1>bison.simple(166): error C2085: 'from' : not in formal parameter list
+     1>bison.simple(167): error C2085: 'count' : not in formal parameter list
+     1>bison.simple(223): error C2143: syntax error : missing ';' before '*'
+     1>bison.simple(223): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(223): error C2100: illegal indirection
+     1>bison.simple(224): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(225): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(227): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(228): error C2146: syntax error : missing ';' before identifier 'yyvsa'
+     1>bison.simple(228): error C2065: 'yyvsa' : undeclared identifier
+     1>bison.simple(228): error C2109: subscript requires array or pointer type
+     1>bison.simple(230): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(231): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(231): error C2065: 'yyvsa' : undeclared identifier
+     1>bison.simple(231): error C2106: '=' : left operand must be l-value
+     1>bison.simple(243): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(254): error C2146: syntax error : missing ';' before identifier 'yyval'
+     1>bison.simple(254): error C2065: 'yyval' : undeclared identifier
+     1>bison.simple(258): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(266): error C2065: 'yyerrstatus' : undeclared identifier
+     1>bison.simple(267): error C2065: 'MatrixReadernerrs' : undeclared identifier
+     1>bison.simple(275): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(275): warning C4047: '=' : 'short *' differs in levels of indirection from 'int'
+     1>bison.simple(276): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(276): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(288): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(288): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(288): warning C4047: '>=' : 'short *' differs in levels of indirection from 'int'
+     1>bison.simple(292): error C2065: 'yyvs1' : undeclared identifier
+     1>bison.simple(292): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(292): error C2106: '=' : left operand must be l-value
+     1>bison.simple(293): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(299): error C2143: syntax error : missing ';' before 'type'
+     1>bison.simple(325): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(330): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(331): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(332): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(333): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(333): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(333): warning C4047: '=' : 'int' differs in levels of indirection from 'short *'
+     1>bison.simple(334): warning C4013: '__yy_memcpy' undefined; assuming extern returning int
+     1>bison.simple(334): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(334): error C2065: 'yyss1' : undeclared identifier
+     1>bison.simple(334): error C2065: 'size' : undeclared identifier
+     1>bison.simple(335): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(335): error C2059: syntax error : ')'
+     1>bison.simple(336): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(336): error C2065: 'yyvs1' : undeclared identifier
+     1>bison.simple(336): error C2065: 'size' : undeclared identifier
+     1>bison.simple(336): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(336): error C2100: illegal indirection
+     1>bison.simple(343): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(343): error C2065: 'size' : undeclared identifier
+     1>bison.simple(343): warning C4047: '=' : 'short *' differs in levels of indirection from 'int'
+     1>bison.simple(344): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(344): error C2065: 'yyvs' : undeclared identifier
+     1>bison.simple(344): error C2065: 'size' : undeclared identifier
+     1>bison.simple(354): error C2065: 'yyss' : undeclared identifier
+     1>bison.simple(354): error C2065: 'yystacksize' : undeclared identifier
+     1>bison.simple(354): warning C4047: '>=' : 'short *' differs in levels of indirection from 'int'
+     1>bison.simple(394): error C2065: 'yychar1' : undeclared identifier
+     1>bison.simple(404): error C2065: 'yychar1' : undeclared identifier
+     1>bison.simple(420): error C2065: 'yychar1' : undeclared identifier
+     1>bison.simple(421): error C2065: 'yychar1' : undeclared identifier
+     1>bison.simple(457): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(457): error C2100: illegal indirection
+     1>bison.simple(457): error C2275: 'MatrixReaderlval' : illegal use of this type as an expression
+                 c:\users\oren ish shalom\git\linear_algebra_master\step_6_source_code\matrix_reader_parser.h(9) : see declaration of 'MatrixReaderlval'
+     1>bison.simple(463): error C2065: 'yyerrstatus' : undeclared identifier
+     1>bison.simple(463): error C2065: 'yyerrstatus' : undeclared identifier
+     1>bison.simple(477): error C2065: 'yylen' : undeclared identifier
+     1>bison.simple(478): error C2065: 'yylen' : undeclared identifier
+     1>bison.simple(479): error C2065: 'yyval' : undeclared identifier
+     1>bison.simple(479): error C2065: 'yyvsp' : undeclared identifier
+     1>bison.simple(479): error C2065: 'yylen' : undeclared identifier
+     1>bison.simple(479): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(92): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(92): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(92): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(92): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(93): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(93): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(93): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(93): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(94): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(94): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(94): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(94): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(95): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(95): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(95): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(95): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(96): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(96): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(96): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(96): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(97): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(97): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(97): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(97): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(98): error C2065: 'yyvsp' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(98): error C2109: subscript requires array or pointer type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y(98): fatal error C1003: error count exceeds 100; stopping compilation
+         Matrix_Reader_Lexer.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_6_source_code\matrix_reader_parser.h(6): error C2061: syntax error : identifier 'FractionType'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_6_source_code\matrix_reader_parser.h(7): error C2059: syntax error : '}'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_6_source_code\matrix_reader_parser.h(9): error C2059: syntax error : '}'
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.lex(79): error C2065: 'MatrixReaderlval' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.lex(79): error C2224: left of '.gval' must have struct/union type
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.lex(80): error C2065: 'MatrixReaderlval' : undeclared identifier
+     1>../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.lex(80): error C2224: left of '.gval' must have struct/union type
+         Generating Code...
+     1>Done Building Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\LINEAR_ALGEBRA_MASTER\LINEAR_ALGEBRA_MASTER.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

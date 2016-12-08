@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9CEAF059-0294-4A4E-B695-EEEA27AC350D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BISON_DRIVER</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;STDC_HEADERS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\alloca.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\allocate.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\closure.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\conflicts.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\derives.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\files.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getargs.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt1.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\gram.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lalr.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lex.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\LR0.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\main.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\nullable.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\output.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\print.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reader.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reduce.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\symtab.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\version.c" />
+    <ClCompile Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\warshall.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\files.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\gram.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lex.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\machine.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\new.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\state.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\symtab.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\system.h" />
+    <ClInclude Include="..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\STEP_4_CHECK_EXERCISES\STEP_4a_Matrix_Reader\MatrixReader.y" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

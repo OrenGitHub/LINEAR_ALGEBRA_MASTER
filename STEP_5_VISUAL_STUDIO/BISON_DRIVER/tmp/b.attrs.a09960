@@ -1,0 +1,54 @@
+#line 1 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+
+/**********************/
+/* BEGINING OF C PART */
+/**********************/
+/*************************/
+/* GENERAL INCLUDE FILES */
+/*************************/
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
+
+/*************************/
+/* PROJECT INCLUDE FILES */
+/*************************/
+#include "Matrix.h"
+
+/*********************/
+/* ALLOCA ISSUES ... */
+/*********************/
+#define alloca malloc
+
+/************/
+/* AST ROOT */
+/************/
+Mat3 A;
+
+/*************/
+/* yylex ... */
+/*************/
+int yylex(void);
+
+/***************/
+/* yyerror ... */
+/***************/
+void yyerror(char *s)
+{
+	Exit(0);
+}
+
+/*****************/
+/* END OF C PART */
+/*****************/
+
+#line 48 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+typedef union 
+{
+	union
+	{
+		int					ival;
+		FractionType		frac;
+	}
+	gval;
+} YYSTYPE;

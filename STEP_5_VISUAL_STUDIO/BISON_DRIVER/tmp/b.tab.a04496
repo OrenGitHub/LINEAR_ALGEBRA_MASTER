@@ -1,0 +1,15 @@
+
+/*  A Bison parser, made from ../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y
+ by  GNU Bison version 1.25
+  */
+
+#define YYBISON 1  /* Identify Bison output.  */
+
+#define	INT	258
+#define	SEMICOLON	259
+#define	LBRACK	260
+#define	RBRACK	261
+#define	PLUS	262
+#define	MINUS	263
+#define	DIVIDE	264
+

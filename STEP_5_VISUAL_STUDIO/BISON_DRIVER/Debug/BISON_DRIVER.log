@@ -1,0 +1,193 @@
+﻿Build started 08/12/2016 08:35:04.
+     1>Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\BISON_DRIVER.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\BISON_DRIVER.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\BISON_DRIVER.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D STDC_HEADERS /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\alloca.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\allocate.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\closure.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\conflicts.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\derives.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\files.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getargs.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\getopt1.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\gram.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lalr.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\lex.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\LR0.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\main.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\nullable.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\output.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\print.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reader.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\reduce.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\symtab.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\version.c ..\..\STEP_0_FLEX_BISON\BISON_SOURCES_DONT_TOUCH\warshall.c
+         warshall.c
+         version.c
+         symtab.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\symtab.c(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\symtab.c(145): warning C4013: 'free' undefined; assuming extern returning int
+         reduce.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reduce.c(96): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reduce.c(164): warning C4013: 'free' undefined; assuming extern returning int
+         reader.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(324): warning C4013: 'printable_version' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(497): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(581): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(663): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(726): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(920): warning C4013: 'atoi' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(1422): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\reader.c(1764): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         print.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(281): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(344): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\print.c(366): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         output.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\output.c(277): warning C4013: 'free' undefined; assuming extern returning int
+         nullable.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\nullable.c(125): warning C4013: 'free' undefined; assuming extern returning int
+         main.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(190): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\main.c(237): warning C4013: 'abort' undefined; assuming extern returning int
+         LR0.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\lr0.c(139): warning C4013: 'free' undefined; assuming extern returning int
+         lex.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\lex.c(325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\lex.c(451): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         lalr.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\lalr.c(330): warning C4013: 'free' undefined; assuming extern returning int
+         gram.c
+         getopt1.c
+         getopt.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getopt.c(340): warning C4013: 'getpid' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getopt.c(340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getopt.c(345): warning C4013: 'strlen' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getopt.c(465): warning C4013: 'strcmp' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getopt.c(541): warning C4013: 'strncmp' undefined; assuming extern returning int
+         getargs.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\getargs.c(106): warning C4013: 'exit' undefined; assuming extern returning int
+         files.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(65): warning C4273: 'perror' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(281) : see previous definition of 'perror'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(161): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(259): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(299) : see declaration of 'unlink'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(260): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(299) : see declaration of 'unlink'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(261): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(299) : see declaration of 'unlink'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(262): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(299) : see declaration of 'unlink'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(108): warning C4101: 'cp' : unreferenced local variable
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(295): warning C4101: 'cp' : unreferenced local variable
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\files.c(412): warning C4013: 'exit' undefined; assuming extern returning int
+         derives.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\derives.c(80): warning C4013: 'free' undefined; assuming extern returning int
+         conflicts.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\conflicts.c(262): warning C4013: 'free' undefined; assuming extern returning int
+         closure.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\closure.c(150): warning C4013: 'free' undefined; assuming extern returning int
+         Generating Code...
+         Compiling...
+         allocate.c
+         alloca.c
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\alloca.c(198): warning C4013: 'free' undefined; assuming extern returning int
+     1>c:\users\oren ish shalom\git\linear_algebra_master\step_0_flex_bison\bison_sources_dont_touch\alloca.c(222): warning C4013: 'abort' undefined; assuming extern returning int
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BISON_DRIVER.exe.embed.manifest.res" Debug\BISON_DRIVER_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BISON_DRIVER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.lib" /MACHINE:X86 Debug\BISON_DRIVER.exe.embed.manifest.res
+         Debug\alloca.obj
+         Debug\allocate.obj
+         Debug\closure.obj
+         Debug\conflicts.obj
+         Debug\derives.obj
+         Debug\files.obj
+         Debug\getargs.obj
+         Debug\getopt.obj
+         Debug\getopt1.obj
+         Debug\gram.obj
+         Debug\lalr.obj
+         Debug\lex.obj
+         Debug\LR0.obj
+         Debug\main.obj
+         Debug\nullable.obj
+         Debug\output.obj
+         Debug\print.obj
+         Debug\reader.obj
+         Debug\reduce.obj
+         Debug\symtab.obj
+         Debug\version.obj
+         Debug\warshall.obj
+       Manifest:
+         Deleting file "Debug\BISON_DRIVER.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BISON_DRIVER.exe.embed.manifest" /manifest Debug\BISON_DRIVER.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BISON_DRIVER.exe.embed.manifest.res" Debug\BISON_DRIVER_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BISON_DRIVER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.lib" /MACHINE:X86 Debug\BISON_DRIVER.exe.embed.manifest.res
+         Debug\alloca.obj
+         Debug\allocate.obj
+         Debug\closure.obj
+         Debug\conflicts.obj
+         Debug\derives.obj
+         Debug\files.obj
+         Debug\getargs.obj
+         Debug\getopt.obj
+         Debug\getopt1.obj
+         Debug\gram.obj
+         Debug\lalr.obj
+         Debug\lex.obj
+         Debug\LR0.obj
+         Debug\main.obj
+         Debug\nullable.obj
+         Debug\output.obj
+         Debug\print.obj
+         Debug\reader.obj
+         Debug\reduce.obj
+         Debug\symtab.obj
+         Debug\version.obj
+         Debug\warshall.obj
+         BISON_DRIVER.vcxproj -> C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\Debug\BISON_DRIVER.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BISON_DRIVER.unsuccessfulbuild".
+         Touching "Debug\BISON_DRIVER.lastbuildstate".
+     1>Done Building Project "C:\Users\Oren Ish Shalom\GIT\LINEAR_ALGEBRA_MASTER\STEP_5_VISUAL_STUDIO\BISON_DRIVER\BISON_DRIVER.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.74

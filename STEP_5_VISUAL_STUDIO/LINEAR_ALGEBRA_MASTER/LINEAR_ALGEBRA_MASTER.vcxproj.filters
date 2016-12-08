@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\STEP_1_Matrix_Reader">
+      <UniqueIdentifier>{8975641a-07c1-4a2c-84dd-afbc30a0fd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEP_2_Row_Operations_Reader">
+      <UniqueIdentifier>{7fd16db7-4d4b-48f5-9634-416014fe912b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEP_3_Solution_Set_Reader">
+      <UniqueIdentifier>{cb812ed2-b587-4fe3-9b9b-a2b2aa266253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STEP_1_Matrix_Reader">
+      <UniqueIdentifier>{35bb4d38-f81b-4eb8-881e-28dc2408bac4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\STEP_6_SOURCE_CODE\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_6_SOURCE_CODE\Matrix.c">
+      <Filter>Source Files\STEP_1_Matrix_Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Lexer.c">
+      <Filter>Source Files\STEP_1_Matrix_Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Parser.c">
+      <Filter>Source Files\STEP_1_Matrix_Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Util.c">
+      <Filter>Source Files\STEP_1_Matrix_Reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\STEP_6_SOURCE_CODE\Matrix.h">
+      <Filter>Header Files\STEP_1_Matrix_Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Util.h">
+      <Filter>Header Files\STEP_1_Matrix_Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STEP_6_SOURCE_CODE\Matrix_Reader_Parser.h">
+      <Filter>Header Files\STEP_1_Matrix_Reader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

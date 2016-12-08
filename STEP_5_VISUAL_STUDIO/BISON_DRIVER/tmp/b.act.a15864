@@ -1,0 +1,26 @@
+
+  switch (yyn) {
+
+case 1:
+#line 81 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+{
+																								A[0][0].nominator = yyvsp[-11].frac.nominator;  A[0][0].denominator = yyvsp[-11].frac.denominator;
+																								A[0][1].nominator = yyvsp[-10].frac.nominator;  A[0][1].denominator = yyvsp[-10].frac.denominator;
+																								A[0][2].nominator = yyvsp[-9].frac.nominator;  A[0][2].denominator = yyvsp[-9].frac.denominator;
+																								A[1][0].nominator = yyvsp[-7].frac.nominator;  A[1][0].denominator = yyvsp[-7].frac.denominator;
+																								A[1][1].nominator = yyvsp[-6].frac.nominator;  A[1][1].denominator = yyvsp[-6].frac.denominator;
+																								A[1][2].nominator = yyvsp[-5].frac.nominator;  A[1][2].denominator = yyvsp[-5].frac.denominator;
+																								A[2][0].nominator = yyvsp[-3].frac.nominator; A[2][0].denominator = yyvsp[-3].frac.denominator;
+																								A[2][1].nominator = yyvsp[-2].frac.nominator; A[2][1].denominator = yyvsp[-2].frac.denominator;
+																								A[2][2].nominator = yyvsp[-1].frac.nominator; A[2][2].denominator = yyvsp[-1].frac.denominator;
+																							;
+    break;}
+case 2:
+#line 93 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+{yyval.frac.nominator = yyvsp[0].gval.ival; yyval.frac.denominator = 1;;
+    break;}
+case 3:
+#line 94 "../../STEP_4_CHECK_EXERCISES/STEP_4a_Matrix_Reader/MatrixReader.y"
+{yyval.frac.nominator = yyvsp[-2].gval.ival; yyval.frac.denominator = yyvsp[0].gval.ival;;
+    break;}
+}
