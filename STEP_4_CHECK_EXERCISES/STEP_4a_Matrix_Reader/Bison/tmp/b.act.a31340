@@ -1,0 +1,16 @@
+
+  switch (yyn) {
+
+case 1:
+#line 56 "PSEUDO_MIPS_ASM_AST.y"
+{PSEUDO_MIPS_ASM_AST_root = yyvsp[-12].gval.expList;;
+    break;}
+case 2:
+#line 58 "PSEUDO_MIPS_ASM_AST.y"
+{printf("");;
+    break;}
+case 3:
+#line 59 "PSEUDO_MIPS_ASM_AST.y"
+{printf("");;
+    break;}
+}

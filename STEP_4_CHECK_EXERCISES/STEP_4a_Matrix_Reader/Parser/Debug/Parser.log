@@ -1,0 +1,68 @@
+﻿  MatrixReader_ErrorMsg.c
+  MatrixReader_AST.c
+  main.c
+  Fraction.c
+  lex.zz.c
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(16): error C2071: 'MatrixReader_AST_vec': illegal storage class
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(17): error C2071: 'MatrixReader_AST_vecList': illegal storage class
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(11): error C2071: 'Fraction': illegal storage class
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(16): error C2061: syntax error: identifier 'Fraction'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(21): error C2146: syntax error: missing ')' before identifier 'f'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(21): error C2061: syntax error: identifier 'f'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(21): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(21): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(22): error C2146: syntax error: missing ')' before identifier 'f'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(22): error C2061: syntax error: identifier 'f'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(22): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\fraction.h(22): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2061: syntax error: identifier 'MatrixReader_AST_VEC_LIST'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2146: syntax error: missing ')' before identifier 'v'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2061: syntax error: identifier 'v'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2059: syntax error: ','
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(27): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2061: syntax error: identifier 'MatrixReader_AST_VEC2'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2146: syntax error: missing ')' before identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2061: syntax error: identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2059: syntax error: ','
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(28): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2061: syntax error: identifier 'MatrixReader_AST_VEC3'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2146: syntax error: missing ')' before identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2061: syntax error: identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2059: syntax error: ','
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(29): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2061: syntax error: identifier 'MatrixReader_AST_VEC4'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2146: syntax error: missing ')' before identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2061: syntax error: identifier 'num1'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2059: syntax error: ','
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(30): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2061: syntax error: identifier 'MatrixReader_AST_VEC_LIST'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2146: syntax error: missing ')' before identifier 'v'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2061: syntax error: identifier 'v'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2059: syntax error: ','
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\parser\matrixreader_ast.h(31): error C2059: syntax error: ')'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(7): error C2061: syntax error: identifier 'Fraction'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(8): error C2061: syntax error: identifier 'vec'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(8): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(9): error C2061: syntax error: identifier 'vecList'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(9): error C2059: syntax error: ';'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(10): error C2059: syntax error: '}'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(12): error C2059: syntax error: '}'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(25): error C2061: syntax error: identifier 'zzlval'
+c:\users\oren ish shalom\git\linear_algebra_master\step_4_check_exercises\step_4a_matrix_reader\bison\matrixreader.tab.h(25): error C2059: syntax error: ';'
+Input.lex(64): error C2065: 'zzlval': undeclared identifier
+Input.lex(64): error C2224: left of '.gval' must have struct/union type
+Input.lex(65): error C2065: 'zzlval': undeclared identifier
+Input.lex(65): error C2224: left of '.gval' must have struct/union type
+Input.lex(65): warning C4473: 'printf' : not enough arguments passed for format string
+  Input.lex(65): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  Input.lex(65): note: the missing variadic argument 1 is required by format string '%d'
+  MatrixReader.tab.c
+MatrixReader.y(95): warning C4013: 'MatrixReader_AST_FRAC' undefined; assuming extern returning int
+MatrixReader.y(95): warning C4047: '=': 'Fraction' differs in levels of indirection from 'int'
+MatrixReader.y(96): warning C4047: '=': 'Fraction' differs in levels of indirection from 'int'
+  Generating Code...

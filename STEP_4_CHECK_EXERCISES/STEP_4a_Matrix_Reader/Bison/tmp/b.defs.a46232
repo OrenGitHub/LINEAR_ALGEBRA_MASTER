@@ -1,0 +1,29 @@
+typedef union
+{
+	union
+	{
+		int								ival;
+		int								temp_serial_number;
+		float							fval;
+		string							sval;
+		string							register_name;
+		PSEUDO_MIPS_ASM_AST_Var			var;
+		PSEUDO_MIPS_ASM_AST_Label_Type_	label;
+		PSEUDO_MIPS_ASM_AST_exp			exp;
+		PSEUDO_MIPS_ASM_AST_expList		expList;
+	}
+	gval;
+} YYSTYPE;
+#define	INT	258
+#define	LPAREN	259
+#define	RPAREN	260
+#define	LBRACK	261
+#define	RBRACK	262
+#define	SEMICOLON	263
+#define	PLUS	264
+#define	MINUS	265
+#define	TIMES	266
+#define	DIVIDE	267
+
+
+extern YYSTYPE zzlval;

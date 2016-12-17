@@ -1,0 +1,447 @@
+
+
+Terminals which are not used:
+
+   PLUS
+   MINUS
+   TIMES
+
+
+
+Grammar
+rule 1    program -> LBRACK vecList RBRACK
+rule 2    vecList -> vec2List
+rule 3    vecList -> vec3List
+rule 4    vecList -> vec4List
+rule 5    vec2List -> vec2 SEMICOLON vec2List
+rule 6    vec2List -> vec2
+rule 7    vec3List -> vec3 SEMICOLON vec3List
+rule 8    vec3List -> vec3
+rule 9    vec4List -> vec4 SEMICOLON vec4List
+rule 10   vec4List -> vec4
+rule 11   vec2 -> LPAREN num num RPAREN
+rule 12   vec3 -> LPAREN num num num RPAREN
+rule 13   vec4 -> LPAREN num num num num RPAREN
+rule 14   num -> INT
+rule 15   num -> INT DIVIDE INT
+
+Terminals, with rules where they appear
+
+$ (-1)
+error (256)
+INT (258) 14 15
+LPAREN (259) 11 12 13
+RPAREN (260) 11 12 13
+LBRACK (261) 1
+RBRACK (262) 1
+SEMICOLON (263) 5 7 9
+PLUS (264)
+MINUS (265)
+TIMES (266)
+DIVIDE (267) 15
+
+Nonterminals, with rules where they appear
+
+program (13)
+    on left: 1
+vecList (14)
+    on left: 2 3 4, on right: 1
+vec2List (15)
+    on left: 5 6, on right: 2 5
+vec3List (16)
+    on left: 7 8, on right: 3 7
+vec4List (17)
+    on left: 9 10, on right: 4 9
+vec2 (18)
+    on left: 11, on right: 5 6
+vec3 (19)
+    on left: 12, on right: 7 8
+vec4 (20)
+    on left: 13, on right: 9 10
+num (21)
+    on left: 14 15, on right: 11 12 13
+
+
+state 0
+
+    LBRACK	shift, and go to state 1
+
+    program	go to state 38
+
+
+
+state 1
+
+    program  ->  LBRACK . vecList RBRACK   (rule 1)
+
+    LPAREN	shift, and go to state 2
+
+    vecList	go to state 3
+    vec2List	go to state 4
+    vec3List	go to state 5
+    vec4List	go to state 6
+    vec2	go to state 7
+    vec3	go to state 8
+    vec4	go to state 9
+
+
+
+state 2
+
+    vec2  ->  LPAREN . num num RPAREN   (rule 11)
+    vec3  ->  LPAREN . num num num RPAREN   (rule 12)
+    vec4  ->  LPAREN . num num num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 11
+
+
+
+state 3
+
+    program  ->  LBRACK vecList . RBRACK   (rule 1)
+
+    RBRACK	shift, and go to state 12
+
+
+
+state 4
+
+    vecList  ->  vec2List .   (rule 2)
+
+    $default	reduce using rule 2 (vecList)
+
+
+
+state 5
+
+    vecList  ->  vec3List .   (rule 3)
+
+    $default	reduce using rule 3 (vecList)
+
+
+
+state 6
+
+    vecList  ->  vec4List .   (rule 4)
+
+    $default	reduce using rule 4 (vecList)
+
+
+
+state 7
+
+    vec2List  ->  vec2 . SEMICOLON vec2List   (rule 5)
+    vec2List  ->  vec2 .   (rule 6)
+
+    SEMICOLON	shift, and go to state 13
+
+    $default	reduce using rule 6 (vec2List)
+
+
+
+state 8
+
+    vec3List  ->  vec3 . SEMICOLON vec3List   (rule 7)
+    vec3List  ->  vec3 .   (rule 8)
+
+    SEMICOLON	shift, and go to state 14
+
+    $default	reduce using rule 8 (vec3List)
+
+
+
+state 9
+
+    vec4List  ->  vec4 . SEMICOLON vec4List   (rule 9)
+    vec4List  ->  vec4 .   (rule 10)
+
+    SEMICOLON	shift, and go to state 15
+
+    $default	reduce using rule 10 (vec4List)
+
+
+
+state 10
+
+    num  ->  INT .   (rule 14)
+    num  ->  INT . DIVIDE INT   (rule 15)
+
+    DIVIDE	shift, and go to state 16
+
+    $default	reduce using rule 14 (num)
+
+
+
+state 11
+
+    vec2  ->  LPAREN num . num RPAREN   (rule 11)
+    vec3  ->  LPAREN num . num num RPAREN   (rule 12)
+    vec4  ->  LPAREN num . num num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 17
+
+
+
+state 12
+
+    program  ->  LBRACK vecList RBRACK .   (rule 1)
+
+    $default	reduce using rule 1 (program)
+
+
+
+state 13
+
+    vec2List  ->  vec2 SEMICOLON . vec2List   (rule 5)
+
+    LPAREN	shift, and go to state 18
+
+    vec2List	go to state 19
+    vec2	go to state 7
+
+
+
+state 14
+
+    vec3List  ->  vec3 SEMICOLON . vec3List   (rule 7)
+
+    LPAREN	shift, and go to state 20
+
+    vec3List	go to state 21
+    vec3	go to state 8
+
+
+
+state 15
+
+    vec4List  ->  vec4 SEMICOLON . vec4List   (rule 9)
+
+    LPAREN	shift, and go to state 22
+
+    vec4List	go to state 23
+    vec4	go to state 9
+
+
+
+state 16
+
+    num  ->  INT DIVIDE . INT   (rule 15)
+
+    INT 	shift, and go to state 24
+
+
+
+state 17
+
+    vec2  ->  LPAREN num num . RPAREN   (rule 11)
+    vec3  ->  LPAREN num num . num RPAREN   (rule 12)
+    vec4  ->  LPAREN num num . num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+    RPAREN	shift, and go to state 25
+
+    num 	go to state 26
+
+
+
+state 18
+
+    vec2  ->  LPAREN . num num RPAREN   (rule 11)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 27
+
+
+
+state 19
+
+    vec2List  ->  vec2 SEMICOLON vec2List .   (rule 5)
+
+    $default	reduce using rule 5 (vec2List)
+
+
+
+state 20
+
+    vec3  ->  LPAREN . num num num RPAREN   (rule 12)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 28
+
+
+
+state 21
+
+    vec3List  ->  vec3 SEMICOLON vec3List .   (rule 7)
+
+    $default	reduce using rule 7 (vec3List)
+
+
+
+state 22
+
+    vec4  ->  LPAREN . num num num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 29
+
+
+
+state 23
+
+    vec4List  ->  vec4 SEMICOLON vec4List .   (rule 9)
+
+    $default	reduce using rule 9 (vec4List)
+
+
+
+state 24
+
+    num  ->  INT DIVIDE INT .   (rule 15)
+
+    $default	reduce using rule 15 (num)
+
+
+
+state 25
+
+    vec2  ->  LPAREN num num RPAREN .   (rule 11)
+
+    $default	reduce using rule 11 (vec2)
+
+
+
+state 26
+
+    vec3  ->  LPAREN num num num . RPAREN   (rule 12)
+    vec4  ->  LPAREN num num num . num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+    RPAREN	shift, and go to state 30
+
+    num 	go to state 31
+
+
+
+state 27
+
+    vec2  ->  LPAREN num . num RPAREN   (rule 11)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 32
+
+
+
+state 28
+
+    vec3  ->  LPAREN num . num num RPAREN   (rule 12)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 33
+
+
+
+state 29
+
+    vec4  ->  LPAREN num . num num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 34
+
+
+
+state 30
+
+    vec3  ->  LPAREN num num num RPAREN .   (rule 12)
+
+    $default	reduce using rule 12 (vec3)
+
+
+
+state 31
+
+    vec4  ->  LPAREN num num num num . RPAREN   (rule 13)
+
+    RPAREN	shift, and go to state 35
+
+
+
+state 32
+
+    vec2  ->  LPAREN num num . RPAREN   (rule 11)
+
+    RPAREN	shift, and go to state 25
+
+
+
+state 33
+
+    vec3  ->  LPAREN num num . num RPAREN   (rule 12)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 36
+
+
+
+state 34
+
+    vec4  ->  LPAREN num num . num num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 37
+
+
+
+state 35
+
+    vec4  ->  LPAREN num num num num RPAREN .   (rule 13)
+
+    $default	reduce using rule 13 (vec4)
+
+
+
+state 36
+
+    vec3  ->  LPAREN num num num . RPAREN   (rule 12)
+
+    RPAREN	shift, and go to state 30
+
+
+
+state 37
+
+    vec4  ->  LPAREN num num num . num RPAREN   (rule 13)
+
+    INT 	shift, and go to state 10
+
+    num 	go to state 31
+
+
+
+state 38
+
+    $   	go to state 39
+
+
+
+state 39
+
+    $   	go to state 40
+
+
+
+state 40
+
+    $default	accept

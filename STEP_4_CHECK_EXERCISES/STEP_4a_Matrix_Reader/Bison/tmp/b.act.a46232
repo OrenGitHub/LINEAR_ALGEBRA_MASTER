@@ -1,0 +1,8 @@
+
+  switch (yyn) {
+
+case 1:
+#line 62 "PSEUDO_MIPS_ASM_AST.y"
+{PSEUDO_MIPS_ASM_AST_root = yyvsp[0].expList;;
+    break;}
+}

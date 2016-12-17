@@ -1,0 +1,16 @@
+
+  switch (yyn) {
+
+case 1:
+#line 62 "MatrixReader.y"
+{InputMatrix[0][0].nominator = 9;;
+    break;}
+case 2:
+#line 64 "MatrixReader.y"
+{printf("");;
+    break;}
+case 3:
+#line 65 "MatrixReader.y"
+{printf("");;
+    break;}
+}

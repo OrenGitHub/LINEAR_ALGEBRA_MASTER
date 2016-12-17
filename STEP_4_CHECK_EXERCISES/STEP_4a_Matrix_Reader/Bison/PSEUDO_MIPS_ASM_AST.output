@@ -1,0 +1,212 @@
+
+
+Terminals which are not used:
+
+   LPAREN
+   RPAREN
+   PLUS
+   MINUS
+   TIMES
+
+
+
+Grammar
+rule 1    program -> LBRACK num num num SEMICOLON num num num SEMICOLON num num num RBRACK
+rule 2    num -> INT
+rule 3    num -> INT DIVIDE INT
+
+Terminals, with rules where they appear
+
+$ (-1)
+error (256)
+INT (258) 2 3
+LPAREN (259)
+RPAREN (260)
+LBRACK (261) 1
+RBRACK (262) 1
+SEMICOLON (263) 1
+PLUS (264)
+MINUS (265)
+TIMES (266)
+DIVIDE (267) 3
+
+Nonterminals, with rules where they appear
+
+program (13)
+    on left: 1
+num (14)
+    on left: 2 3, on right: 1
+
+
+state 0
+
+    LBRACK	shift, and go to state 1
+
+    program	go to state 17
+
+
+
+state 1
+
+    program  ->  LBRACK . num num num SEMICOLON num num num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 3
+
+
+
+state 2
+
+    num  ->  INT .   (rule 2)
+    num  ->  INT . DIVIDE INT   (rule 3)
+
+    DIVIDE	shift, and go to state 4
+
+    $default	reduce using rule 2 (num)
+
+
+
+state 3
+
+    program  ->  LBRACK num . num num SEMICOLON num num num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 5
+
+
+
+state 4
+
+    num  ->  INT DIVIDE . INT   (rule 3)
+
+    INT 	shift, and go to state 6
+
+
+
+state 5
+
+    program  ->  LBRACK num num . num SEMICOLON num num num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 7
+
+
+
+state 6
+
+    num  ->  INT DIVIDE INT .   (rule 3)
+
+    $default	reduce using rule 3 (num)
+
+
+
+state 7
+
+    program  ->  LBRACK num num num . SEMICOLON num num num SEMICOLON num num num RBRACK   (rule 1)
+
+    SEMICOLON	shift, and go to state 8
+
+
+
+state 8
+
+    program  ->  LBRACK num num num SEMICOLON . num num num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 9
+
+
+
+state 9
+
+    program  ->  LBRACK num num num SEMICOLON num . num num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 10
+
+
+
+state 10
+
+    program  ->  LBRACK num num num SEMICOLON num num . num SEMICOLON num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 11
+
+
+
+state 11
+
+    program  ->  LBRACK num num num SEMICOLON num num num . SEMICOLON num num num RBRACK   (rule 1)
+
+    SEMICOLON	shift, and go to state 12
+
+
+
+state 12
+
+    program  ->  LBRACK num num num SEMICOLON num num num SEMICOLON . num num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 13
+
+
+
+state 13
+
+    program  ->  LBRACK num num num SEMICOLON num num num SEMICOLON num . num num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 14
+
+
+
+state 14
+
+    program  ->  LBRACK num num num SEMICOLON num num num SEMICOLON num num . num RBRACK   (rule 1)
+
+    INT 	shift, and go to state 2
+
+    num 	go to state 15
+
+
+
+state 15
+
+    program  ->  LBRACK num num num SEMICOLON num num num SEMICOLON num num num . RBRACK   (rule 1)
+
+    RBRACK	shift, and go to state 16
+
+
+
+state 16
+
+    program  ->  LBRACK num num num SEMICOLON num num num SEMICOLON num num num RBRACK .   (rule 1)
+
+    $default	reduce using rule 1 (program)
+
+
+
+state 17
+
+    $   	go to state 18
+
+
+
+state 18
+
+    $   	go to state 19
+
+
+
+state 19
+
+    $default	accept

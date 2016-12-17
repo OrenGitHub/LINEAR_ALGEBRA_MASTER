@@ -1,0 +1,50 @@
+#line 1 "MatrixReader.y"
+
+/*************************/
+/* GENERAL INCLUDE FILES */
+/*************************/
+#include <stdio.h>
+#include <stdlib.h>
+
+/*************************/
+/* PROJECT INCLUDE FILES */
+/*************************/
+#include "../Parser/Matrix.h"
+#include "../Parser/Fraction.h"
+#include "../Parser/MatrixReader_AST.h"
+
+/*********************/
+/* ALLOCA ISSUES ... */
+/*********************/
+#define alloca malloc
+
+/*********************************/
+/* LEXING FUNCTION PROTOTYPE ... */
+/*********************************/
+int zzlex(void);
+
+/***************************/
+/* PARSED INPUT MATRIX ... */
+/***************************/
+// Mat3 InputMatrix;
+
+/******************************/
+/* LEXING ERROR FUNCTION  ... */
+/******************************/
+void zzerror(char *s)
+{
+	/* PSEUDO_MIPS_ASM_AST_EM_error(PSEUDO_MIPS_ASM_AST_EM_tokPos, "%s", s); */
+}
+
+#line 39 "MatrixReader.y"
+typedef union
+{
+	union
+	{
+		int							ival;
+		Fraction					frac;
+		MatrixReader_AST_vec		vec;
+		MatrixReader_AST_vecList	vecList;
+	}
+	gval;
+} YYSTYPE;
