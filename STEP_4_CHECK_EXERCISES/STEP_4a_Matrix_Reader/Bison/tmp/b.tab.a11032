@@ -752,11 +752,11 @@ case 13:
     break;}
 case 14:
 #line 94 "MatrixReader.y"
-{yyval.gval.frac = FRACTION(yyvsp[0].gval.ival,      1);;
+{yyval.gval.frac = MatrixReader_AST_FRAC(yyvsp[0].gval.ival,      1);;
     break;}
 case 15:
 #line 95 "MatrixReader.y"
-{yyval.gval.frac = FRACTION(yyvsp[-2].gval.ival,yyvsp[0].gval.ival);;
+{yyval.gval.frac = MatrixReader_AST_FRAC(yyvsp[-2].gval.ival,yyvsp[0].gval.ival);;
     break;}
 }
    /* the action file gets copied in in place of this dollarsign */

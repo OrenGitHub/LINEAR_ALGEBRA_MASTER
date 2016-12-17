@@ -37,7 +37,6 @@ void zzerror(char *s)
 
 %union
 {
-#include "../Parser/MatrixReader_AST.h"
 	union
 	{
 		int							ival;
@@ -92,8 +91,8 @@ vec2:		LPAREN num num         RPAREN	{$$.vec = MatrixReader_AST_VEC2($2.frac,$3.
 vec3:		LPAREN num num num     RPAREN	{$$.vec = MatrixReader_AST_VEC3($2.frac,$3.frac,$4.frac);}
 vec4:		LPAREN num num num num RPAREN	{$$.vec = MatrixReader_AST_VEC4($2.frac,$3.frac,$4.frac,$5.frac);}
 
-num:		INT								{$$.frac = MatrixReader_AST_FRAC($1.ival,      1);}
-			| INT DIVIDE INT				{$$.frac = MatrixReader_AST_FRAC($1.ival,$3.ival);}
+num:		INT								{$$.frac = FRACTION($1.ival,      1);}
+			| INT DIVIDE INT				{$$.frac = FRACTION($1.ival,$3.ival);}
 %%
 
 	

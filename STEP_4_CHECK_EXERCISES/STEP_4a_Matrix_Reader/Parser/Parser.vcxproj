@@ -150,6 +150,7 @@
     <ClCompile Include="MatrixReader_ErrorMsg.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Bison\MatrixReader.tab.h" />
     <ClInclude Include="Fraction.h" />
     <ClInclude Include="MatrixReader_AST.h" />
     <ClInclude Include="MatrixReader_ErrorMsg.h" />

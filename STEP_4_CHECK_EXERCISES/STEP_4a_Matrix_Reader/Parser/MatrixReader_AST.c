@@ -11,8 +11,8 @@
 /*************************/
 /* PROJECT INCLUDE FILES */
 /*************************/
-#include "MatrixReader_AST.h"
 #include "Fraction.h"
+#include "MatrixReader_AST.h"
 
 /*********/
 /* TYPES */

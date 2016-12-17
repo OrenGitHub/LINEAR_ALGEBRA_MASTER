@@ -1,6 +1,3 @@
-#include "../Parser/Fraction.h"
-#include "../Parser/MatrixReader_AST.h"
-
 typedef union
 {
 	union

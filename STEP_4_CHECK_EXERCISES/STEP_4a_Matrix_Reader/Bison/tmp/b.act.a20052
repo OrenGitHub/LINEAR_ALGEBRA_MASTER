@@ -1,0 +1,64 @@
+
+  switch (yyn) {
+
+case 1:
+#line 75 "MatrixReader.y"
+{printf("");;
+    break;}
+case 2:
+#line 77 "MatrixReader.y"
+{yyval.gval.vecList = yyvsp[0].gval.vecList;;
+    break;}
+case 3:
+#line 78 "MatrixReader.y"
+{yyval.gval.vecList = yyvsp[0].gval.vecList;;
+    break;}
+case 4:
+#line 79 "MatrixReader.y"
+{yyval.gval.vecList = yyvsp[0].gval.vecList;;
+    break;}
+case 5:
+#line 81 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[-2].gval.vec,yyvsp[0].gval.vecList);;
+    break;}
+case 6:
+#line 82 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[0].gval.vec,NULL);;
+    break;}
+case 7:
+#line 84 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[-2].gval.vec,yyvsp[0].gval.vecList);;
+    break;}
+case 8:
+#line 85 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[0].gval.vec,NULL);;
+    break;}
+case 9:
+#line 87 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[-2].gval.vec,yyvsp[0].gval.vecList);;
+    break;}
+case 10:
+#line 88 "MatrixReader.y"
+{yyval.gval.vecList = MatrixReader_AST_VEC_LIST(yyvsp[0].gval.vec,NULL);;
+    break;}
+case 11:
+#line 90 "MatrixReader.y"
+{yyval.gval.vec = MatrixReader_AST_VEC2(yyvsp[-2].gval.frac,yyvsp[-1].gval.frac);;
+    break;}
+case 12:
+#line 91 "MatrixReader.y"
+{yyval.gval.vec = MatrixReader_AST_VEC3(yyvsp[-3].gval.frac,yyvsp[-2].gval.frac,yyvsp[-1].gval.frac);;
+    break;}
+case 13:
+#line 92 "MatrixReader.y"
+{yyval.gval.vec = MatrixReader_AST_VEC4(yyvsp[-4].gval.frac,yyvsp[-3].gval.frac,yyvsp[-2].gval.frac,yyvsp[-1].gval.frac);;
+    break;}
+case 14:
+#line 94 "MatrixReader.y"
+{yyval.gval.frac = FRACTION(yyvsp[0].gval.ival,      1);;
+    break;}
+case 15:
+#line 95 "MatrixReader.y"
+{yyval.gval.frac = FRACTION(yyvsp[-2].gval.ival,yyvsp[0].gval.ival);;
+    break;}
+}
